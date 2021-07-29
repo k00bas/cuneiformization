@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Akkadian';
+    src: url('../fonts/Akkadian.ttf');
+}
+
+@font-face {
+    font-family: 'Santakku';
+    src: url('../fonts/Santakku.ttf');
+}
+
+@font-face {
+    font-family: 'SantakkuM';
+    src: url('../fonts/SantakkuM.ttf');
+}
+
+@font-face {
+    font-family: 'Zarathustra';
+    src: url('../fonts/Zarathustra.ttf');
+}
+
+@font-face {
+    font-family: 'DhUgaritic';
+    src: url('../fonts/DhUgaritic.ttf');
+}
+
+.navbar {
+    margin-top: 3.33%;
+}
+
+
+#translate {
+    margin-bottom: 20px;
+}
+
+.to-translate {
+    font-family: Tahoma;
+    font-size: 25px;
+    resize:vertical;
+}
+
+.result {
+    font-family: Akkadian;
+    font-size: 30px;
+    resize:vertical;
+}
+
+
+a {
+    cursor: pointer;
+}

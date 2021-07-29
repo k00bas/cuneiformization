@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Cuneiformization - a tool to transform syllables written in Latin script to cuneiform signs." />
+<meta name="author" content="Fedor Koobas">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" integrity="undefined" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="cuneiformize.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<link rel="shortcut icon" href="/favicon.png" type="image/png">
+<body>
+    <div class="container">
+    <div class="navbar navbar-light" style="background-color: #e3f2fd;"><h1 class="head head-text" style="text-align: left;">cuneiformization</h1></div>
+    <div class="navbar navbar-light" style="background-color: #e3f2fd;"><h2 class="head head-text" style="text-align: left;">Transform Latin syllables to cuneiform signs</h1></div>
+        <br>
+        <a class="btn btn-secondary" href="https://github.com/k00bas/cuneiformization/blob/main/README.md" target="_blank">Instructions & FAQ</a>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-6">
+                        <form >
+                        <textarea placeholder="Type the syllables here (e.g. asz bal hal an)" onfocus="placeholder='';" class="form-control to-translate" rows="13"></textarea>
+                        <br>    
+                        <button type="button" class="btn btn-dark" id="translate">cuneiformize!</button>
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Change font</button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" role="menu">
+                              <a class="dropdown-item #" id="change-to-akkadian">Change to Akkadian</a>
+                              <a class="dropdown-item #" id="change-to-santakku">Change to Santakku</a>
+                              <a class="dropdown-item #" id="change-to-santakkum">Change to Santakku Monumental</a>
+                              <a class="dropdown-item #" id="change-to-zarathustra">Change to Zarathustra</a>
+                              <a class="dropdown-item #" id="change-to-DhUgaritic">Change to DhUgaritic</a>
+                            </div>
+                          </div>
+                          </form>
+                          </div>
+                    <div class="col-md-6">
+                        <form >
+                            <textarea class="form-control result" rows="10"></textarea>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="page-footer pt-4">
+            <p class="footer-copyright text-center py-3">created with ❤ by <a href='https://koobas.ru'>Fedor Koobas</a></p>
+        </footer>
+
+    </div>
+</body>
+</html>
