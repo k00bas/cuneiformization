@@ -1,4 +1,10 @@
 # cuneiformization
+
+##
+DEMO: https://k00bas.github.io/cuneiformization/
+Please note - this demo is a static github page, so some functions (e.g. changing the font) are not available.
+If you need it working in full, please clone it and launch it via a php web server
+
 ## What is this tool for?
 This tool is made to transform syllables written in Latin script into cuneiform signs
 
